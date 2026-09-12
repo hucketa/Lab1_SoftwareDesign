@@ -24,7 +24,7 @@ int main() {
     for (size_t i = 1; i < pi.size(); ++i) {
         limit_margin[i] = limit_margin[i - 1] + pi[i];
     }
-
+    
     // ====================== ГЕНЕРАЦІЯ ======================
     std::random_device rd;
     std::mt19937 gen(rd());
