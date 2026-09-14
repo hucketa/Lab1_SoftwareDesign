@@ -12,7 +12,8 @@ int main() {
     SetConsoleOutputCP(65001);
 
     const size_t student_number = 1;
-    const size_t numbers_amount = student_number * 1000;
+    const size_t numbers_amount = student_number * 100
+    ;
 
     // ====================== ДАНІ ВАРІАНТУ ======================
     std::vector<double> xi = {5, 7, 17, 19, 21, 25, 55};
